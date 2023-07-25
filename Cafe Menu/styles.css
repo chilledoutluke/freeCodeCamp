@@ -1,10 +1,98 @@
-div {
-    width: 80%;
-    background-color: burlywood;
-    margin-left: auto;
-    margin-right: auto;
+body {
+    background-image: url(https://images.unsplash.com/photo-1606486544554-164d98da4889?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29mZmVlJTIwYmVhbnN8ZW58MHx8MHx8fDI%3D&auto=format&fit=crop&w=700&q=60);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h1, h2{
+    font-family: Impact, serif;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+
+.established {
+    font-style: italic;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
 }
 
 h1, h2, p {
     text-align: center;
 }
+
+.menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+.bottom-line {
+    margin-top: 25px;
+}
+
+
+/* changing p(block level element) to an inline-element which stay on the same line */
+.item p {
+    display: inline-block; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .flavor, .dessert {
+    text-align: left;
+    width: 75%;
+  }
+  
+  .price {
+    text-align: right;
+    width: 25%;
+  }
+
+  /* FOOTER */
+
+  footer {
+    font-size: 14px;
+  }
+
+  a {
+    color: black;
+  }
+
+  a:visited {
+    color: black;
+  }
+
+  a:hover {
+    color: brown;
+  }
+
+  a:active {
+    color: brown;
+  }
+
+  .address {
+    margin-bottom: 5px;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+
+  }
